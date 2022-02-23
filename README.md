@@ -1,3 +1,3 @@
 # Exercism
 
-## Repo for exercises done on Exercism.io
+Repo for exercises done on Exercism.io
