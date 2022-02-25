@@ -8,10 +8,7 @@ class Luhn:
             doubled = [int(x) * 2 for x in reversed_card[1::2]]
             not_doubled = [int(x) for x in reversed_card[::2]]
             val_doubled = [x - 9 if x > 9 else x for x in doubled]
-            print(val_doubled)
-            print(not_doubled)
             total = sum(val_doubled) + sum(not_doubled)
-            print(total)
             if total % 10 == 0:
                 return True
             else:
